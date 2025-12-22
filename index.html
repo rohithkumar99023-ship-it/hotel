@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sunrise Grand Hotel</h1>
+
+<h2>Room Availability</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Room No</th>
+      <th>Type</th>
+      <th>Price / Day</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="roomTable"></tbody>
+</table>
+
+<h2>Book a Room</h2>
+
+<div class="form">
+  <input type="number" id="roomNo" placeholder="Room Number">
+  <input type="text" id="guestName" placeholder="Guest Name">
+  <input type="number" id="days" placeholder="Days of Stay">
+  <button onclick="bookRoom()">Book Room</button>
+</div>
+
+<h3 id="bill"></h3>
+
+<script src="script.js"></script>
+</body>
+</html>
