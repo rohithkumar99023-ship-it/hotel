@@ -1,9 +1,9 @@
 let rooms = [
-  { room_number: 111, room_type: "Deluxe", price: 3000, available: true, guest: null },
-  { room_number: 222, room_type: "Deluxe", price: 3000, available: true, guest: null },
-  { room_number: 333, room_type: "Super Deluxe", price: 4500, available: true, guest: null },
-  { room_number: 444, room_type: "Super Deluxe", price: 4500, available: false, guest: "Ravi" },
-  { room_number: 555, room_type: "Suite", price: 7000, available: true, guest: null }
+  { room_number: 111, room_type: "Deluxe", price: 5000, available: true, guest: null },
+  { room_number: 222, room_type: "Deluxe", price: 5000, available: true, guest: null },
+  { room_number: 333, room_type: "Super Deluxe", price: 7500, available: true, guest: null },
+  { room_number: 555, room_type: "Suite", price: 10500, available: false, guest: "Ravi" },
+  { room_number: 666, room_type: "Presidential Suite", price: 7=15000, available: true, guest: null }
 ];
 
 function displayRooms() {
@@ -66,4 +66,5 @@ function cancelRoom(roomNo) {
 }
 
 displayRooms();
+
 
